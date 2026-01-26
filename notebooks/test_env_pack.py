@@ -1,6 +1,5 @@
 # Databricks notebook source
 
-import json
 import os
 
 import mlflow

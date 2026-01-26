@@ -98,7 +98,7 @@ def call_endpoint(record):
     """
     Calls the model serving endpoint with a given input record.
     """
-    serving_endpoint = f"{os.environ['DBR_HOST']}/serving-endpoints/marvel-character-model-serving/invocations"    
+    serving_endpoint = f"{os.environ['DBR_HOST']}/serving-endpoints/marvel-character-custom-envpack-no-codepath/invocations"    
     print(f"Calling endpoint: {serving_endpoint}")
     
     response = requests.post(
